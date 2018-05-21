@@ -1,4 +1,4 @@
-package com.engedaludvikling.sheetr;
+package com.engedaludvikling.sheetr.activities;
 
 import android.annotation.SuppressLint;
 import android.app.FragmentManager;
@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 
+import com.engedaludvikling.sheetr.R;
 import com.engedaludvikling.sheetr.fragments.InformationFragment;
 import com.engedaludvikling.sheetr.fragments.InventoryFragment;
 import com.engedaludvikling.sheetr.fragments.ProficienciesFragment;

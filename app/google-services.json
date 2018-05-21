@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "791565288039",
+    "firebase_url": "https://sheetr-d94f7.firebaseio.com",
+    "project_id": "sheetr-d94f7",
+    "storage_bucket": "sheetr-d94f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791565288039:android:e22edf4e433818bd",
+        "android_client_info": {
+          "package_name": "com.engedaludvikling.sheetr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791565288039-21mmra2kavi4m73nt7ooskf4bcva2tq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.engedaludvikling.sheetr",
+            "certificate_hash": "ae20d7871247da138f7477b9abf1e0ca80786622"
+          }
+        },
+        {
+          "client_id": "791565288039-a448huhuah3l42a4k7sig11qcgc9hof6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIj6HoLUWnlzZNkS2jimHXGl9JlNGVQhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791565288039-a448huhuah3l42a4k7sig11qcgc9hof6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
