@@ -1,4 +1,4 @@
-package com.engedaludvikling.sheetr.fragments;
+package com.engedaludvikling.sheetr.fragments_spreadsheet;
 
 import android.app.Fragment;
 

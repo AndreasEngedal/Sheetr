@@ -18,11 +18,25 @@
         android:layout_marginTop="16dp"
         android:background="@color/white"
         android:onClick="onCharacterActivityButtonClick"
-        android:text="Character Activity"
+        android:text="@string/title_activity_spreadsheet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/main_button_pdf_crawler"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:onClick="onPDFCrawlerActivityButtonClick"
+        android:text="PDF Crawler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_button_character_activity"/>
 
     <Button
         android:id="@+id/main_button_sign_out"

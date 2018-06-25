@@ -2,7 +2,6 @@ package com.engedaludvikling.sheetr.activities;
 
 import android.annotation.SuppressLint;
 import android.app.FragmentManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.internal.BottomNavigationItemView;
@@ -13,17 +12,17 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import com.engedaludvikling.sheetr.R;
-import com.engedaludvikling.sheetr.fragments.InformationFragment;
-import com.engedaludvikling.sheetr.fragments.InventoryFragment;
-import com.engedaludvikling.sheetr.fragments.ProficienciesFragment;
-import com.engedaludvikling.sheetr.fragments.SpellsFragment;
+import com.engedaludvikling.sheetr.fragments_spreadsheet.InformationFragment;
+import com.engedaludvikling.sheetr.fragments_spreadsheet.InventoryFragment;
+import com.engedaludvikling.sheetr.fragments_spreadsheet.ProficienciesFragment;
+import com.engedaludvikling.sheetr.fragments_spreadsheet.SpellsFragment;
 
 import java.lang.reflect.Field;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class CharacterActivity extends AppCompatActivity {
+public class SpreadsheetActivity extends AppCompatActivity {
 
     @BindView(R.id.character_bottom_navigation)
     BottomNavigationView bottomNavigationView;
@@ -31,7 +30,7 @@ public class CharacterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_character);
+        setContentView(R.layout.activity_spreadsheet);
         ButterKnife.bind(this);
 
         disableShiftMode(bottomNavigationView);

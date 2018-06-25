@@ -6,10 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.engedaludvikling.sheetr.R;
-import com.engedaludvikling.sheetr.activities.CharacterActivity;
 import com.facebook.login.LoginManager;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,7 +35,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onCharacterActivityButtonClick(View v) {
-        Intent intent = new Intent(this, CharacterActivity.class);
+        Intent intent = new Intent(this, SpreadsheetActivity.class);
+        startActivity(intent);
+    }
+
+    public void onPDFCrawlerActivityButtonClick(View v) {
+        Intent intent = new Intent(this, PDFCrawlerActivity.class);
         startActivity(intent);
     }
 
